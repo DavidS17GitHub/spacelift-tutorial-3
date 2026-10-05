@@ -46,7 +46,7 @@ resource "aws_s3_bucket" "archive" {
     name        = "Orbit Labs Archive"
     managedBy   = "Spacelift"
     environment = var.environment
-    cost-center = "engineering"
+    cost-center = "cloud-ops"
   }
 }
 
